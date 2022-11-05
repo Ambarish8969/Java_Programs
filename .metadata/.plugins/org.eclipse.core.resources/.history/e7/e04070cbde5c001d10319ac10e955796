@@ -23,7 +23,6 @@ public class Student {
 	}
 
 	public static void main(String[] args) {
-		// Objects created.
 		Student obj1=new Student("Ambarish",06,99,8);
 		Student obj2=new Student("Archana",10,97,7);
 
