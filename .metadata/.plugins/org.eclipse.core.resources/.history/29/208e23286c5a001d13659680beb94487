@@ -1,0 +1,16 @@
+package com.mail.login;
+
+public class Login {
+	
+	public String username="ambarish";
+	private String password="ambarish@00";
+	public static void logedin() {
+		System.out.println("Loggedin");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		logedin();
+	}
+
+}

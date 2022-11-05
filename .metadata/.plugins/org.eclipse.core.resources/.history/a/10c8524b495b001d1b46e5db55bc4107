@@ -1,0 +1,22 @@
+package Hello;
+
+class Assign2{
+	int a=100;
+	int b=200;
+	int result=a+b;
+	void add() {
+		System.out.println(result);
+	}
+}
+
+public class Assign1 {
+	
+	public static void main(String[] args) {
+	
+		System.out.println(new Assign2().a);
+		System.out.println(new Assign2().b);
+		
+	}
+	
+}
+

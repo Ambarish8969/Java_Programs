@@ -1,0 +1,21 @@
+package com.jsp.assign1;
+
+public class Vehicle {
+	
+	String name;
+	int modle;
+	String vehicle_number;
+	
+	public void showVehicleDetails() {
+		System.out.println(name);
+		System.out.println(modle);
+		System.out.println(vehicle_number);
+	}
+
+	public static void main(String[] args) {
+		Vehicle object1=new Vehicle();
+		System.out.println(object1.name);
+
+	}
+
+}

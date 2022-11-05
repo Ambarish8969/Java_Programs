@@ -1,0 +1,11 @@
+package com.mail.login1;
+
+import com.mail.login.*;
+public class Login1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Login.logedin();
+	}
+
+}

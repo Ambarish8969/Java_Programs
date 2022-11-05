@@ -1,0 +1,30 @@
+package Hello;
+import java.util.*;
+class helloworld
+{	
+	String username="ambarish";
+	String password="ambarish@00";
+	String username1="ambarish23";
+	String password1="ambarish@00";
+	void login() {
+		if(username==username1) {
+			if(password==password1) {
+				System.out.println("Successfully Logedin.");
+			}else {
+				System.out.println("Invalid Password.");
+			}
+		}else {
+			System.out.println("Invalid Username");
+		}
+	}
+	static void dashboard() {
+		System.out.println("Dashboard Page.");
+	}
+	public static void main(String[] args) {
+//		Scanner input=new Scanner(System.in);
+//		String username1=input.next();
+//		String password1=input.next();
+		new helloworld().login();
+		helloworld.dashboard();
+	}
+}

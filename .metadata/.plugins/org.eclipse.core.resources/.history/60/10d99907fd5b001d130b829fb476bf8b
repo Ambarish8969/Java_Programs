@@ -1,0 +1,12 @@
+package Hello;
+
+public class Practive {
+	int a=10;
+	public void add() {
+		int a=20;
+		System.out.println(a);
+	}
+	public static void main(String[] args) {
+		 new Practive().add();
+	}
+}

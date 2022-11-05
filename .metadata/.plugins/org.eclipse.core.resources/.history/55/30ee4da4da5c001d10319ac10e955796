@@ -1,0 +1,28 @@
+package com.jsp.assign1;
+
+public class Student {
+	
+	String stu_name;
+	int stu_rollno;
+	int stu_marks;
+	
+	public Student(String stu_name,int stu_rollno,int stu_marks) {
+		this.stu_name=stu_name;
+		this.stu_rollno=stu_rollno;
+		this.stu_marks=stu_marks;
+	}
+	
+	public void showStudentDetails() {
+		System.out.println(stu_name);
+		System.out.println(stu_rollno);
+		System.out.println(stu_marks);
+	}
+
+	public static void main(String[] args) {
+		Student obj=new Student("Ambarish",06,99);
+		
+		obj.showStudentDetails();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package Hello;
+
+public class Practive {
+	
+	public static void main(String[] args) {
+		int[] arr= {10,30,29,40};
+		int length=0;
+		for(int i:arr) {
+			length=length+1;
+		}
+		System.out.println(length); 
+	}
+}

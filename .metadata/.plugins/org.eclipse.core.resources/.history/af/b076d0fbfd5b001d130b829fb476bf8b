@@ -1,0 +1,11 @@
+package Hello;
+
+public class Practive {
+
+	public static void main(String[] args) {
+		int i;
+		 for(;i<5;) {
+			 System.out.println("Hello");
+		 }
+	}
+}
