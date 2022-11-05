@@ -7,12 +7,11 @@ public class Student {
 	int stu_marks;
 	static int stu_class;
 	
-	// Constructor Initialization.
 	public Student(String stu_name,int stu_rollno,int stu_marks,int stu_class) {
 		this.stu_name=stu_name;
 		this.stu_rollno=stu_rollno;
 		this.stu_marks=stu_marks;
-		Student.stu_class=stu_class;
+		this.stu_class=stu_class;
 	}
 	
 	public void showStudentDetails() {
