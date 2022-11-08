@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="ConstructorOverloading"/>
+		<item key="selection" value="long"/>
 		<list key="findhistory">
+			<item value="int"/>
+			<item value="long"/>
 			<item value="Practive"/>
 			<item value="username"/>
 			<item value="username1"/>
@@ -15,6 +17,8 @@
 			<item value="f"/>
 		</list>
 		<list key="replacehistory">
+			<item value="long"/>
+			<item value="int"/>
 			<item value="ConstructorOverloading"/>
 			<item value=""/>
 			<item value="j"/>

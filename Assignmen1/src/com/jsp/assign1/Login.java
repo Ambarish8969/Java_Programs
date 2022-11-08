@@ -14,11 +14,15 @@ public class Login {
 		this.phno=phno;
 		this.password=password;
 	}
+	
+	
 	public void getDetails() {
 		if(phno==0) {
-			System.out.println(email+" "+password);
+			System.out.println("email id : "+email);
+			System.out.println("password : "+password);
 		}else {
-			System.out.println(phno+" "+password);
+			System.out.println("phno : "+phno);
+			System.out.println("password : "+password);
 		}
 	}
 	
