@@ -2,14 +2,28 @@ package Hello;
 
 public class Practive {
 	
-	public void showDetails(String name,int id) {
-		System.out.println(name);
-		System.out.println(id);
+	public Practive() {
+		System.out.println("constructor 1");
+	}
+	public Practive(int a) {
+		this();
+		System.out.println("constructor 2");
+	}
+	public Practive(int a,double b) {
+		this();
+		System.out.println("constructor 3");
+	}
+	public Practive(double a, int b) {
+		this();
+		System.out.println("constructor 4");
+	}
+	public Practive(int a, int b, int c) {
+		this(8.1,5);
+		System.out.println("constructor 5");
 	}
 	
 	public static void main(String[] args) {
-		Practive obj=new Practive();
-		obj.showDetails("Ambarish", 1546);
-		obj.showDetails("Archana",8979);
+		Practive obj=new Practive(5,6,8);
+		
 	}
 }

@@ -15,6 +15,7 @@ public class Account {
 		this.ifsc_code=ifsc_code;
 	}
 	public void getDetails() {
+		System.out.println(bank_name);
 		System.out.println(user_name);
 		System.out.println(account_number);
 		System.out.println(ifsc_code);
@@ -22,7 +23,6 @@ public class Account {
 	public static void main(String[] args) {
 		Account obj=new Account("Ambarish",489975356,"SBI0464");
 		obj.getDetails();
-
 	}
 
 }
