@@ -15,7 +15,6 @@ public class Login {
 		this.password=password;
 	}
 	
-	
 	public void getDetails() {
 		if(phno==0) {
 			System.out.println("email id : "+email);
