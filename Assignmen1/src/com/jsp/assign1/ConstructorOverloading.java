@@ -23,7 +23,7 @@ public class ConstructorOverloading {
 	}
 	
 	public static void main(String[] args) {
-		ConstructorOverloading obj=new ConstructorOverloading(5,6,8);
+		new ConstructorOverloading(5,6,8);
 		
 	}
 }
