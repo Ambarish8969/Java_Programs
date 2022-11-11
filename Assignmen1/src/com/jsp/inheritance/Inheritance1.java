@@ -1,6 +1,6 @@
 package com.jsp.inheritance;
 
-class Demo{
+class Demo1{
 	static int a=10;
 	public void method1() {
 		a=30;
@@ -15,7 +15,7 @@ public class Inheritance1 extends Demo{
 		System.out.println("bike");
 	}
 	public static void main(String[] args) {
-		Demo obj=new Demo();
+		Demo1 obj=new Demo1();
 		obj.method1();
 		Inheritance1 obj2=new Inheritance1();
 		obj2.bike();
