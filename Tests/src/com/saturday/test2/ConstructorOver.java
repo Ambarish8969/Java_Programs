@@ -27,7 +27,7 @@ public class ConstructorOver {
 		ConstructorOver obj=new ConstructorOver("ambarish@gmail.com","ambi@00");
 		obj.getDetails();
 		System.out.println("=====================");
-		ConstructorOver obj1=new ConstructorOver(9900408969l,"ambi@123";
+		ConstructorOver obj1=new ConstructorOver(9900408969l,"ambi@123");
 		obj1.getDetails();
 	}
 
