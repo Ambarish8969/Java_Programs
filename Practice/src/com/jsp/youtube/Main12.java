@@ -9,7 +9,6 @@ class Home{
 		if(username=="ambarish") {
 			if(password=="ambi@00") {
 				System.out.println("Successfully loggedin");
-				
 			}else {
 				System.out.println("Invalid password");
 			}
@@ -20,7 +19,6 @@ class Home{
 	public void wish() {
 		System.out.println("Welcome "+username);
 		homeDisplay();
-		
 	}
 	public void homeDisplay() {
 		System.out.println("Select your choice...");
@@ -36,7 +34,6 @@ class Home{
 	}
 }
 class Subscriptions extends Home{
-	
 	public void lists() {
 		if(getUserChoice()=="subscriptions") {
 			System.out.println("Getting your subscriptions....");
@@ -54,7 +51,6 @@ class Library{
 	}
 }
 public class Main12 {
-
 	public static void main(String[] args) {
 		Home obj1=new Home();
 		obj1.login();
@@ -67,5 +63,4 @@ public class Main12 {
 		Library obj3=new Library();
 		obj3.downloads();
 	}
-
 }
