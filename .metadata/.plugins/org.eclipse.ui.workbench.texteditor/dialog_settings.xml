@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="long"/>
+		<item key="selection" value="downloads"/>
 		<list key="findhistory">
+			<item value="Downloads"/>
 			<item value="int"/>
 			<item value="long"/>
 			<item value="Practive"/>
@@ -17,6 +18,7 @@
 			<item value="f"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Library"/>
 			<item value="long"/>
 			<item value="int"/>
 			<item value="ConstructorOverloading"/>

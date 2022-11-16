@@ -1,10 +1,14 @@
 package com.jsp.youtube;
 
 class Home{
-	String username="ambarish";
-	private String password="ambi@00";
-	static String userchoice;
-
+	String username;
+	String password;
+	
+	public Home(String username,String password) {
+		this.username=username;
+		this.password=password;
+	}
+	
 	public void login() {
 		if(username=="ambarish") {
 			if(password=="ambi@00") {
@@ -26,16 +30,13 @@ class Home{
 		System.out.println("Subscriptions");
 		System.out.println("Library");
 	}
-	public void setUserChoice(String userchoice) {
-		Home.userchoice=userchoice;
-	}
-	public String getUserChoice() {
-		return userchoice;
-	}
 }
 class Subscriptions extends Home{
-	public void lists() {
-		if(getUserChoice()=="subscriptions") {
+	public Subscriptions() {
+		super("ambarish@g.com","ambi@00");
+	}
+	public void lists(String userchoice) {
+		if(userchoice=="subscriptions") {
 			System.out.println("Getting your subscriptions....");
 			System.out.println("Telusko");
 			System.out.println("HackerRank");
@@ -52,13 +53,12 @@ class Library{
 }
 public class Main12 {
 	public static void main(String[] args) {
-		Home obj1=new Home();
+		Home obj1=new Home("ambarish@g.com","ambi@00");
 		obj1.login();
 		obj1.wish();
-		obj1.setUserChoice("subscriptions");
 		System.out.println("=========================");
 		Subscriptions obj2=new Subscriptions();
-		obj2.lists();
+		obj2.lists("subscriptions");
 		System.out.println("=========================");
 		Library obj3=new Library();
 		obj3.downloads();
