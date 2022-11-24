@@ -40,5 +40,4 @@ public class Inheritance2 {
 		obj.salary=55000;
 		obj.printSalary();
 	}
-
 }
