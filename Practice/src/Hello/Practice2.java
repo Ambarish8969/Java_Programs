@@ -9,6 +9,12 @@ public class Practice2 {
 	public static void test2(int b) {
 		System.out.println(b);
 	}
+	public static void test3(double c) {
+		System.out.println(c);
+	}
+	public static void test4(int d) {
+		System.out.println(d);
+	}
 	public static void main(String[] args) {
 		// Widening -> Low data type to High data type
 		byte a=1;
@@ -16,5 +22,11 @@ public class Practice2 {
 		// Narowing -> High data type to low data type
 		long b=46;
 		test2((int)b);
+		
+		int c=34;
+		test3(c);
+		
+		float d=3.4f;
+		test4((int)d);
 	}
 }
