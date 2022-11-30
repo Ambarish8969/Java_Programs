@@ -1,15 +1,19 @@
 package Hello;
-abstract class Ab{
-	public abstract void getName();
-}
-public class Practive extends Ab {
+
+public class Practive{
 	
-	@Override
-	public void getName() {
-		System.out.println("ambu");
-	}
 	public static void main(String[] args) {
-		Practive obj=new Practive();
-		obj.getName();
+		int a=10;
+		long b=a;
+		double c=b;
+		
+		double e=100.89;
+		int f=(int)e;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(e);
+		System.out.println(f);
+		
 	}
 }
