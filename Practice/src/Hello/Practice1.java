@@ -1,7 +1,7 @@
 package Hello;
 
-public class Practive{
-	
+public class Practice1 {
+
 	public static void main(String[] args) {
 		int a=10;
 		long b=a;
@@ -16,4 +16,5 @@ public class Practive{
 		System.out.println(f);
 		
 	}
+
 }
