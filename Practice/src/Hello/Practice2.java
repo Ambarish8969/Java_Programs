@@ -22,10 +22,10 @@ public class Practice2 {
 		// Narowing -> High data type to low data type
 		long b=46;
 		test2((int)b);
-		
+		// Widening -> Low data type to High data type
 		int c=34;
 		test3(c);
-		
+		// Narowing -> High data type to low data type
 		float d=3.4f;
 		test4((int)d);
 	}
