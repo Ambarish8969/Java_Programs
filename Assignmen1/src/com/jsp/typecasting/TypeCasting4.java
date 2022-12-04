@@ -23,5 +23,6 @@ public class TypeCasting4 {
 		t1.test(d2);
 		t1.test(s1);
 		t1.test(d1);
+		System.out.println(s1 instanceof Demo);
 	}
 }
