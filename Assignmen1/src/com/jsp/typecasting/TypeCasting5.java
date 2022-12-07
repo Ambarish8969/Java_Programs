@@ -26,7 +26,7 @@ class LoginPage{
 			c1.buyProduct();
 			c1.cancleProduct();
 		}else {
-			Admin a1=(Admin)u;
+			Admin a1=(Admin)u;// DownCasting.
 			System.out.println("Admin loggedIn");
 			a1.addProduct();
 			a1.removeProduct();
