@@ -2,14 +2,14 @@ package com.jsp.Application;
 
 public class Atm implements Account {
 	long accno;
-	double bal;
+	double bal=10000;
 	String owner;
 	String ifsc;
 	static String bankname="ICICI";
 	
-	public Atm(long accno,double bal,String owner,String ifsc) {
+	public Atm(long accno,String owner,String ifsc) {
 		this.accno=accno;
-		this.bal=bal;
+//		this.bal=bal;
 		this.owner=owner;
 		this.ifsc=ifsc;
 	}
