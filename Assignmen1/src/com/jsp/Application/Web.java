@@ -3,14 +3,14 @@ package com.jsp.Application;
 public class Web implements Account {
 //	double bal;
 	long accno;
-	double bal;
+	double bal=5000;
 	String owner;
 	String ifsc;
 	static String bankname="ICICI";
 	
-	public Web(long accno,double bal,String owner,String ifsc) {
+	public Web(long accno,String owner,String ifsc) {
 		this.accno=accno;
-		this.bal=bal;
+		//this.bal=bal;
 		this.owner=owner;
 		this.ifsc=ifsc;
 	}
