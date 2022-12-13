@@ -4,6 +4,7 @@ public class Customer {
 	String name;
 	long mobile;
 	Account a1;
+	
 	public Customer(String name, long mobile, Account a1) {
 		super();
 		this.name = name;
