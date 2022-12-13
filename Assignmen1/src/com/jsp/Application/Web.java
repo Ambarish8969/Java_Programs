@@ -1,41 +1,26 @@
 package com.jsp.Application;
 
-public class Web implements Account {
-//	double bal;
-	long accno;
-	double bal=5000;
-	String owner;
-	String ifsc;
-	static String bankname="ICICI";
-	
-	public Web(long accno,String owner,String ifsc) {
-		this.accno=accno;
-		//this.bal=bal;
-		this.owner=owner;
-		this.ifsc=ifsc;
-	}
+public class Web extends Account implements User {
+	double bal;
 	@Override
-	public void deposit(double amt) {
-		System.out.println("Using Web");
-		bal=bal+amt;
-		System.out.println("current bal : "+bal+", deposit amt : "+amt);
+	public void transaction(double amt,int choice) {
+		if(choice==1) {
+			send(amt);
+		}else {
+			receive(amt);
+		}
 	}
-	@Override
-	public void withdraw(double amt) {
-		System.out.println("Using Web");
+	public void send(double amt) {
 		if(bal>=amt) {
 			bal=bal-amt;
-			System.out.println("current bal : "+bal+", withdraw amt : "+amt);
+			System.out.println("current bal : "+bal+", send amt : "+amt);
 		}else {
 			System.out.println("Invalid Transaction.");
 		}
 	}
-	@Override
-	public void showDetails() {
-		System.out.println(bankname);
-		System.out.println(accno);
-		System.out.println(bal);
-		System.out.println(owner);
-		System.out.println(ifsc);
+	public void receive(double amt) {
+		bal=bal+amt;
+		System.out.println("current bal : "+bal+", received amt : "+amt);
 	}
+	
 }

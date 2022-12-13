@@ -2,7 +2,7 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Hello.Add"/>
     <fullyQualifiedTypeName name="Hello.Subtract"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.jsp.inheritance.Fashion"/>
     <fullyQualifiedTypeName name="com.jsp.youtube.Home"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

@@ -1,28 +1,43 @@
 package com.jsp.Application;
 
 public class Service {
-	Account a1;
-	public Account creatObject(int pin,int choice) {
+	User a1;
+	public User creatObject(int pin,int choice) {
 		if(pin==1234) {
-			Account a1=new Atm(14378411789l,"Namrata","ICIC786");
+			User a1=new Atm();
 			if(choice ==1) {
-				
-				a1.deposit(10000);
+				deposit(10000);
 			}else {
 				
-				a1.withdraw(2000);
+				withdraw(2000.0);
 			}
 			return a1;
 		}else {
-			Account a2=new Web(4567841164l,"Ambarish","ICIC908");
+			User a2=new Web();
 			if(choice ==1) {
 				
-				a1.deposit(5000);
+				send(5000);
 			}else {
 				
-				a1.withdraw(2000);
+				receive(2000);
 			}
 			return a2;
 		}
+	}
+	private void receive(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void send(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void withdraw(double d) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void deposit(int i) {
+		// TODO Auto-generated method stub
+		
 	}
 }

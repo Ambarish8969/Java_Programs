@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Photo"/>
+		<item key="selection" value="User1"/>
 		<list key="findhistory">
+			<item value="User"/>
 			<item value="Photo"/>
 			<item value="Downloads"/>
 			<item value="int"/>
@@ -19,8 +20,9 @@
 			<item value="f"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Video"/>
+			<item value="User1"/>
 			<item value=""/>
+			<item value="Video"/>
 			<item value="Library"/>
 			<item value="long"/>
 			<item value="int"/>
