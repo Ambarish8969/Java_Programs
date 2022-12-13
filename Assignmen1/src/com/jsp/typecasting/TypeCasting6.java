@@ -14,18 +14,18 @@ class Web implements User1{
 	}
 } 
 class Service{
-	//User1 u1; 
+	User1 u1; 
 	public User1 createobject(int pin) {
 		if(pin ==1234) {
-		//	u1=new Atm();
-			Atm a1=new Atm(); 
+			u1=new Atm();
+			//Atm a1=new Atm(); 
 		//	a1.transaction();
-			return a1;
+			return u1;
 		}else {
 		//	u1=new Web();
 			Web w1=new Web();
-		//	w1.transaction();
-			return w1;
+		//	w1.transaction();  
+			return w1; 
 		}
 	}
 }

@@ -10,13 +10,13 @@ public class Account {
 //		
 //	}
 	
-	public Atm(long accno,String owner,String ifsc) {
-		this.accno=accno;
-//		this.bal=bal;
-		this.owner=owner;
-		this.ifsc=ifsc;
-	}
-	
+//	public Atm(long accno,String owner,String ifsc) {
+//		this.accno=accno;
+////		this.bal=bal;
+//		this.owner=owner;
+//		this.ifsc=ifsc;
+//	}
+//	
 	public void deposit(double amt) {
 		bal=bal+amt;
 		System.out.println("current bal : "+bal+", deposit amt : "+amt);
