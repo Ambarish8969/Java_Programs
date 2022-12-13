@@ -38,11 +38,5 @@ public class TypeCasting6 {
 		User1 u2=s1.createobject(4565);
 		u2.transaction();
 		
-//		Atm a1=new Atm();
-//		a1.transaction();
-//		
-//		Web w1=new Web();
-//		w1.transaction();
-		//a1=s1.createobject(1234);
 	}
 }
