@@ -15,6 +15,9 @@ public class DebitCard {
 		this.expDate = expDate;
 		this.a1 = a1;
 	}
+	public DebitCard() {
+		
+	}
 
 	public void generatePin(int pinNumber) {
 		this.pinNumber=pinNumber;

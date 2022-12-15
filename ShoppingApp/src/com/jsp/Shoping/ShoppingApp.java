@@ -6,9 +6,10 @@ public class ShoppingApp extends DebitCard {
 	double productPrice;
 	String shippingaddress;
 	
-	public ShoppingApp(int pinNumber, int cvv, String expDate, Account a1, String productName, double productPrice,
+	public ShoppingApp(String productName, double productPrice,
 			String shippingaddress) {
-		super(pinNumber, cvv, expDate, a1);
+		//super(pinNumber, cvv, expDate, a1);
+		super();
 		this.productName = productName;
 		this.productPrice = productPrice;
 		this.shippingaddress = shippingaddress;
