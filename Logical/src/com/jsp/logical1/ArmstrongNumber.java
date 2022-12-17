@@ -10,7 +10,7 @@ public class ArmstrongNumber {
 			c++;
 		}
 		int rem=0,sum=0;
-		while(n1!=0) {
+		while(n1!=0) { 
 			rem=n1%10;
 			int pow=1;
 			for(int i=1;i<=c;i++) {

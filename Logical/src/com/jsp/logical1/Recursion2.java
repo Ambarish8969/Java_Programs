@@ -4,7 +4,7 @@ package com.jsp.logical1;
 
 public class Recursion2 {
 	public static void demo(int n) {
-		if(n>=1) {
+		if(n>=1) { 
 			System.out.println(n);
 			n--;
 			demo(n);

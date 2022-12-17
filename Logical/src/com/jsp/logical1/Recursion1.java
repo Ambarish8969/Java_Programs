@@ -8,7 +8,7 @@ public class Recursion1 {
 			System.out.println(n);
 			n++;
 			demo(n);
-		}
+		} 
 	}
 	public static void main(String[] args) {
 		demo(1);

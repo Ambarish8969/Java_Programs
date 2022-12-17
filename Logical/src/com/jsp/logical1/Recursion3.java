@@ -8,7 +8,7 @@ public class Recursion3 {
 		}else {
 			return n+demo(n-1);
 		}
-	}
+	} 
 	public static void main(String[] args) {
 		System.out.println(demo(10));
 	}

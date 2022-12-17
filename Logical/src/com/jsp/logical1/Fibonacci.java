@@ -7,7 +7,7 @@ public class Fibonacci {
 		while(i<=10) {
 			System.out.println(n1);
 			sum=n1+n2;
-			n1=n2;
+			n1=n2; 
 			n2=sum;
 			i++;
 		}
