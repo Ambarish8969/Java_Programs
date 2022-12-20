@@ -4,7 +4,7 @@ package com.jsp.logical1;
 
 public class Recursion5 {
 	public static int fibonacci(int n) {
-		if(n<=1) { 
+		if(n<=1) {  
 			return n;
 		}return fibonacci(n-1)+fibonacci(n-2);
 	}
