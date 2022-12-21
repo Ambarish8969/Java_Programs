@@ -1,7 +1,8 @@
 package com.jsp.Arrays;
 
+// To check sum of every element except max element is equal 
+// to max element.
 public class Arrays12 {
-
 	public static void main(String[] args) {
 		int arr[]= {2,1,4,5,12};
 		int max=arr[0];
