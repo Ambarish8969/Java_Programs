@@ -11,7 +11,7 @@ public class Arrays6 {
 			for(int j=1;j<=arr[i];j++) {
 				if(arr[i]%j==0) {
 					sum=sum+j;
-				}
+				} 
 			} 
 			arr[i]=sum;
 		}
