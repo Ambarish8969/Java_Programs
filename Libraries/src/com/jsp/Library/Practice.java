@@ -2,22 +2,16 @@ package com.jsp.Library;
 
 public class Practice {
 	public static void main(String[] args) {
-		Practice p1=new Practice();
-		Practice p2=new Practice();
-		System.out.println(p1.hashCode());
-		System.out.println(p2.hashCode());
-		System.out.println(p1);
-		System.out.println(p2);
-		System.out.println(p1.toString());
-		System.out.println(p2.toString());
-		System.out.println(p1.equals(p2));
-		System.out.println("----Overriden methods of String class----");
 		String s1="hello";
-		String s2="Hello";
-		System.out.println(s1.hashCode());
-		System.out.println(s2.hashCode());
-		System.out.println(s1.toString());
-		System.out.println(s2.toString());
-		System.out.println(s1.equals(s2));
+		String s2="hello";
+		String s3=new String("hello");
+		String s4=new String("hello");
+		System.out.println(s1==s2); // True
+		System.out.println(s3==s4); // False
+		System.out.println(s1==s3); // False
+		System.out.println("---------------------------");
+		System.out.println(s1.equals(s2)); // True
+		System.out.println(s3.equals(s4)); // True
+		System.out.println(s1.equals(s3)); // True
 	}
 }

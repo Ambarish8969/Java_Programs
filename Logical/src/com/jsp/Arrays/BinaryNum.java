@@ -2,6 +2,7 @@ package com.jsp.Arrays;
 
 import java.util.Scanner;
 
+// Convert Decimal to Binary.
 public class BinaryNum {
 
 	public static void main(String[] args) {
@@ -16,7 +17,8 @@ public class BinaryNum {
 			n=n/2;  
 		}
 		 for(int j=i-1;j>=0;j--) {
-			 System.out.print(arr[j]+"");
+			 System.out.print(arr[j]+""); 
 		 }
+		 input.close();
 	}
 }
