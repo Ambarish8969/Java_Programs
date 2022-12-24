@@ -1,7 +1,7 @@
 package com.jsp.string1;
 
 // To print nearest vowel
-public class String2 {
+public class String2 { 
 	public static void main(String[] args) {
 		char input='y';
 		if(input>='a' && input<='d') {
