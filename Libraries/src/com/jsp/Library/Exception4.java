@@ -7,5 +7,6 @@ public class Exception4 {
 	}
 	public static void main(String[] args) { // For checked exception  "throws" is  optional.
 		check();
+		
 	}
 }
