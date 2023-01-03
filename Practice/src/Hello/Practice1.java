@@ -1,19 +1,22 @@
 package Hello;
 
 public class Practice1{
-	
-	static int a=10;
-	public void add() {
-		int a=20;
-		System.out.println(a);
-		System.out.println(this.a);
+	public int hashCode() {
+		return 456;
 	}
-	
+	public String toString() {
+		return "Ambika";
+	}
+//	
 	public static void main(String[] args) {
 		Practice1 p1=new Practice1();
-		p1.add();
-		
-		int b=1234567891;
-		System.out.println(b);
+		String s1=new String("Ambarish");
+		String s2="ambi";
+		System.out.println(s1);
+		System.out.println(s1.toString());
+		System.out.println(s1.hashCode());
+		System.out.println(p1.hashCode());
+		System.out.println(s2.hashCode());
+		System.out.println(p1.toString());
 	}
 }

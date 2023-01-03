@@ -20,5 +20,4 @@ public class Arrays11 {
 			System.out.println(arr[i]);
 		}
 	}
-
 }

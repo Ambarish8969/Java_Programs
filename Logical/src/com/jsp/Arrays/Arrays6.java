@@ -12,7 +12,7 @@ public class Arrays6 {
 				if(arr[i]%j==0) {
 					sum=sum+j;
 				} 
-			} 
+			}
 			arr[i]=sum;
 		}
 		for(int i=0;i<arr.length;i++) {
