@@ -1,7 +1,8 @@
 package com.jsp.string1;
 
-public class String5 {
+// To print vowels which are not present in given String.
 
+public class String5 {
 	public static void main(String[] args) {
 		 String input = "hello";
 
