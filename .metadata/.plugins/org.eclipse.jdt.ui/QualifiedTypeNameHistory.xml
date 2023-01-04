@@ -8,4 +8,8 @@
     <fullyQualifiedTypeName name="com.jsp.Shoping.ShoppingApp"/>
     <fullyQualifiedTypeName name="com.jsp.Debitcard.DebitCard"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>
