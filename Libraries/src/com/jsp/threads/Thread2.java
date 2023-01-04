@@ -10,11 +10,11 @@ class Sample extends Thread{
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+			} 
 		}
 	}
 }
-public class Thread2 {
+public class Thread2 { 
 	public static void main(String[] args) {
 		Sample obj=new Sample(); 
 		obj.start();
