@@ -1,5 +1,6 @@
 package com.jsp.Arrays;
 
+// Sum of NonDuplicates.
 public class Arrays14 {
 	public static void main(String[] args) {
 		int arr1[]= {10,30,2,4,10,30};
