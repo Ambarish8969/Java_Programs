@@ -1,28 +1,25 @@
 package Hello;
 
-class Sample extends Thread{
-	@Override
-	public void run() {
-		for(int i=0;i<5;i++) {
-			System.out.println(i);
-		}
+class A{
+	public void method1() {
+		System.out.println("Ambarish 1");
 	}
 }
-public class Practice1 extends Thread{
-	@Override
-	public void run() {
-		for(int i=4;i>=0;i--) {
-			System.out.println(i);
-		}
+class B extends A{
+	public void method2() {
+		System.out.println("Ambarish 2");
 	}
-	
+}
+class C1 extends B{
+	public void method3() {
+		System.out.println("Ambarish 3");
+	}
+}
+public class Practice1{
 	public static void main(String[] args) {
-		Sample s1=new Sample();
-		Practice1 p1=new Practice1();
-		s1.start();
-		//System.out.println("-----------------------------");
-		p1.start();
-		//System.out.println("-----------------------------");
-		//obj1.method2();
+		C1 c1=new C1();
+		c1.method3();
+		c1.method2();
+		c1.method1();
 	}
 }
