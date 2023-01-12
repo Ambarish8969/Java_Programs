@@ -3,8 +3,11 @@ package com.jsp.string1;
 public class Practice1 {
 
 	public static void main(String[] args) {
-		String c="a";
-		System.out.println(c.toUpperCase());
+		String name="ambarish";
+		int length=0;
+		for(int i=0;name.charAt(i)!='\0';i++) {
+			length++;
+		}
+		System.out.println(length);
 	}
-
 }

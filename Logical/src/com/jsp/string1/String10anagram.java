@@ -4,7 +4,7 @@ package com.jsp.string1;
 // should be same.
 public class String10anagram {
 	public static void main(String[] args) {
-		String s1="hello";
+		String s1="hellom";
 		String s2="olehl"; 
 		if(s1.length()==s2.length()) {
 			char arr1[]=s1.toCharArray();
