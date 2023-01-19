@@ -1,9 +1,9 @@
-package com.jsp.vectors;
+package com.jsp.vectors1;
 
 import java.util.ArrayList;
 import java.util.Vector;
 
-public class Vectors1 {
+public class Vectors2 {
 	public static void main(String[] args) {
 		// <Integer> and <Object> these are called as Generics used for type saftey.
 		ArrayList<Integer> a=new ArrayList<Integer>();

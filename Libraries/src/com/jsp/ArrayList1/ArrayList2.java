@@ -44,11 +44,11 @@ public class ArrayList2 {
 		Employee e3=new Employee("Abhishek",600,15000.0);
 		
 		ArrayList<Object> a1=new ArrayList<Object>();
-		a1.add(e1);
+		a1.add(e1); 
 		a1.add(e2);
 		a1.add(e3);
 		for(int i=0;i<a1.size();i++) {
-			System.out.println(a1.get(i));
+			System.out.println(a1.get(i)); 
 		}
 		System.out.println("===========================");
 		for(Object d:a1) {
