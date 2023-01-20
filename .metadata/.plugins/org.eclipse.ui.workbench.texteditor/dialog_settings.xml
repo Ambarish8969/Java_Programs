@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="toString()"/>
+		<item key="selection" value="Employee1"/>
 		<list key="findhistory">
+			<item value="Employee"/>
 			<item value="toString()"/>
 			<item value="name"/>
 			<item value="User"/>
@@ -22,8 +23,9 @@
 			<item value="f"/>
 		</list>
 		<list key="replacehistory">
-			<item value="str"/>
+			<item value="Employee1"/>
 			<item value=""/>
+			<item value="str"/>
 			<item value="User1"/>
 			<item value="Video"/>
 			<item value="Library"/>

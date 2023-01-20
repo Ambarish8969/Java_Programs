@@ -13,7 +13,7 @@ class Employee1 implements Comparable<Employee1>{
 		this.eid=eid;
 		this.sal=sal;
 	}
-	@Override
+	@Override 
 	public String toString() {
 		return "Employee1 [name : "+ename+", sal : "+sal+"]";
 	} 
