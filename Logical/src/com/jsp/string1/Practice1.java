@@ -8,6 +8,6 @@ public class Practice1 {
 			s2=name.charAt(i)+s2;
 		}
 		System.out.println(s2); 
-		Integer a=In
+		
 	}
 }
