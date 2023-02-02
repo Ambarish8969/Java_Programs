@@ -11,5 +11,6 @@ public class LastModified {
 		Date d=new Date(f.lastModified()); // it prints date and time
 		System.out.println(d); 
 		
+		System.out.println(new Date(f.lastModified()));
 	}
 }
