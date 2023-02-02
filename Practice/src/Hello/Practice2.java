@@ -1,18 +1,16 @@
 package Hello;
 
-class User{
-	String name="Ambarish";
-	int sal=500;
-	
-	@Override
-	public String toString() {
-		return "[Name : "+name+", sal : "+sal+"]"; 
-	} 
-	
-}
+import java.io.File;
+
 public class Practice2 {
 	public static void main(String[] args) {
-		User u1=new User();
-		System.out.println(u1);
+//		try {
+//			System.out.println(100/0);
+//		}
+//		catch(Exception e){
+//			e.printStackTrace();
+//		}
+		File f=new File("ambi.doc");
+		f.createNewFile();
 	} 
 } 

@@ -1,21 +1,18 @@
 package com.jsp.Arrays;
 
 public class KeyPad {
+	@Override
+	public String toString() {
+		return "ambarish";
+	}
 	public static void main(String[] args) {
-		char arr[][]= {{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','k','l'},
-				{'m','n','o'},{'p','q','r'},{'s','t','u'},{'v','w','x'},
-				{'y','z'}};
-		String s="hello";
-		char arr1[]=s.toCharArray();
-		int sum=0;
-		for (int i = 0; i < arr1.length; i++) { 
-		    for (int j = 0; j < arr.length; j++) { 
-		    	for(int k=0;k<arr[j].length;k++) {
-		    		if (arr1[i]==arr[j][k]) { 
-			            sum=sum+(k+1);
-			        }
-		    	}
-		    }
-		}System.out.println(sum);
+		String s1=new String("ambi"); 
+		String s2="ambi";
+		String s3="ambi";
+		int a=10;
+		System.out.println(s1==s2);
+		System.out.println(s2==s3);
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.toString());
 	}
 }

@@ -1,21 +1,29 @@
 package Hello;
+class Super{
+	private int a;
+	public int b;
 
+	public Super() {
+		this.a=10;
+		this.b=20;
+	}
+	
+	public void displayValues() {
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+class Sub extends Super{
+
+	public Sub() { 
+		super();
+//		this.a=100;
+		this.b=40;
+	}
+}
 public class Practice1{
 	public static void main(String[] args) {
-		char arr[][]= {{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','k','l'},
-				{'m','n','o'},{'p','q','r'},{'s','t','u'},{'v','w','x'},
-				{'y','z'}};
-		String s="welcome";
-		char arr1[]=s.toCharArray();
-		int sum=0;
-		for (int i = 0; i < arr1.length; i++) { 
-		    for (int j = 0; j < arr.length; j++) { 
-		    	for(int k=0;k<arr[j].length;k++) {
-		    		if (arr1[i]==arr[j][k]) { 
-			            sum=sum+(k+1);
-			        }
-		    	}
-		    }
-		}System.out.println(sum);
+		Sub obj=new Sub();
+		obj.displayValues();
 	}
 }
