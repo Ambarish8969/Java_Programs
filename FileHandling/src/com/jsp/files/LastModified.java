@@ -8,8 +8,8 @@ public class LastModified {
 		File f=new File("demo1.txt");
 		System.out.println(f.lastModified()); // it prints in miliseconds.
 		
-		Date d=new Date(f.lastModified());
-		System.out.println(d);
+		Date d=new Date(f.lastModified()); // it prints date and time
+		System.out.println(d); 
 		
 	}
 }
