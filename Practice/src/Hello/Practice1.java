@@ -1,29 +1,15 @@
 package Hello;
-class Super{
-	private int a;
-	public int b;
 
-	public Super() {
-		this.a=10;
-		this.b=20;
-	}
-	
-	public void displayValues() {
-		System.out.println(a);
-		System.out.println(b);
-	}
-}
-class Sub extends Super{
+import java.util.Scanner;
 
-	public Sub() { 
-		super();
-//		this.a=100;
-		this.b=40;
-	}
-}
 public class Practice1{
 	public static void main(String[] args) {
-		Sub obj=new Sub();
-		obj.displayValues();
+		Scanner ip=new Scanner(System.in);
+		int a=ip.nextInt();
+		double d=ip.nextDouble();
+		String s=ip.next();
+		System.out.println(a);
+		System.out.println(d);
+		System.out.println(s);
 	}
 }
