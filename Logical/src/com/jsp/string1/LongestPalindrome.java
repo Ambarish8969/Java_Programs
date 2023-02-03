@@ -6,7 +6,7 @@ public class LongestPalindrome {
 		for(int i=0;i<s.length();i++) {
 			s2=s.charAt(i)+s2;
 		}
-		return s2.equalsIgnoreCase(s);
+		return s2.equalsIgnoreCase(s); 
 	}
 	public static void main(String[] args) {
 		String s="abacddddddcaabbbaac";
