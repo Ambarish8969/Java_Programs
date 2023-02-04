@@ -9,7 +9,7 @@ public class Mirror {
 				if(s.charAt(i) != s.charAt(j)) {
 					flag=false;
 					break;
-				}
+				} 
 			}
 			if(flag==true) {
 				System.out.println("Mirror");
