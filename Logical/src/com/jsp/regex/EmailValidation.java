@@ -11,4 +11,4 @@ public class EmailValidation {
 		boolean ans=m.matches();
 		System.out.println(ans);
 	}
-}
+} 
