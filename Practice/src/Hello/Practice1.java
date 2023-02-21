@@ -1,15 +1,21 @@
 package Hello;
 
-import java.util.Scanner;
-
 public class Practice1{
 	public static void main(String[] args) {
-		Scanner ip=new Scanner(System.in);
-		int a=ip.nextInt();
-		double d=ip.nextDouble();
-		String s=ip.next();
-		System.out.println(a);
-		System.out.println(d);
-		System.out.println(s);
+		long n=7963473;
+		String s=n+"";
+		String ans="";
+		for(int i=0;i<s.length();i=i+2) {
+			if(i==s.length()-1) {
+				ans=ans+s.charAt(i);
+			}
+			else if(s.charAt(i)>s.charAt(i+1)) {
+				ans=ans+s.charAt(i);
+			}
+			else {
+				ans=ans+s.charAt(i+1);
+			}
+		}
+		System.out.println(Long.parseLong(ans));
 	}
 }
