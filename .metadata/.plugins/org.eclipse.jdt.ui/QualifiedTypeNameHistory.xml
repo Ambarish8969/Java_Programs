@@ -30,6 +30,6 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="StudentDB.StudentInterfaceImpl"/>
     <fullyQualifiedTypeName name="Hello.Facebook"/>
+    <fullyQualifiedTypeName name="StudentDB.StudentInterfaceImpl"/>
 </qualifiedTypeNameHistroy>
