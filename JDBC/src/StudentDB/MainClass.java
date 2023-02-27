@@ -13,7 +13,7 @@ public class MainClass {
 			int choice=ip.nextInt();
 			switch(choice) {
 			case 1:
-				new StudentInterfaceImpl();
+//				new StudentInterfaceImpl();
 				s1.addStudent();
 				break;
 			case 2:

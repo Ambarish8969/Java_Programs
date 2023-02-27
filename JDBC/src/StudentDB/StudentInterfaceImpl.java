@@ -8,18 +8,11 @@ import java.util.Scanner;
 
 public class StudentInterfaceImpl implements StudentInterface {
 	Scanner ip=new Scanner(System.in);
-	
-	static int std_id;
-	
-	public StudentInterfaceImpl() {
-		this.std_id=100;
-		std_id++;
-	}
 
 	@Override
 	public void addStudent() {
-//		System.out.println("Enter the student id : ");
-//		int id=ip.nextInt();
+		System.out.println("Enter the student id : ");
+		int id=ip.nextInt();
 		System.out.println("Enter the student name : ");
 		String name=ip.next();
 		System.out.println("Enter the student age : ");
@@ -31,14 +24,13 @@ public class StudentInterfaceImpl implements StudentInterface {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb","root","root");
 			PreparedStatement preparedStatement=connection.prepareStatement("insert into student values(?,?,?,?)");
-			preparedStatement.setInt(1, std_id);
+			preparedStatement.setInt(1, id);
 			preparedStatement.setString(2, name);
 			preparedStatement.setInt(3, age);
 			preparedStatement.setInt(4, marks);
 			preparedStatement.execute();
 			connection.close();
 			System.out.println("Data Saved.");
-//			std_id++;
 		}
 		catch(Exception e) {
 			e.printStackTrace();
