@@ -1,16 +1,40 @@
 package Hello;
 
-class Practice2 {
-	@Override
-	public void finalize() {
-		System.out.println("Object is Removing.");
+import java.util.ArrayList;
+import java.util.HashSet;
+
+class A {
+	String name;
+	int age;
+	int marks;
+	
+	public A(String name,int age,int marks) {
+		this.name=name;
+		this.age=age;
+		this.marks=marks;
 	}
 	
+	@Override
+	public String toString() {
+		return "name = "+name+" age = "+age+" marks = "+marks;
+	}
+	
+}
+
+class Practice2{
+	
 	public static void main(String[] args){
-		Practice2 p1=new Practice2();
-		p1=null;
-		System.gc();
-		System.out.println("Object is Removed.");
-		
-	} 
+		StringBuffer sb=new StringBuffer("Ambika");
+		System.out.println(sb.hashCode());
+		sb=sb.append("Nisha");
+		System.out.println(sb);
+		System.out.println(sb.hashCode());
+		System.out.println("--------------------------------");
+		sb=new StringBuffer("Ambi");
+		System.out.println(sb.hashCode());
+		sb=sb.append("ambu");
+		System.out.println(sb);
+		System.out.println(sb.hashCode());
+	}
+
 } 

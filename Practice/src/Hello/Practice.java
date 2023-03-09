@@ -1,38 +1,24 @@
 package Hello;
 
-abstract class Shape{
-	int length,height;
-	abstract void printArea();
-}
-class Rectangle extends Shape{
-	@Override
-	void printArea() {
-		System.out.println("Rectangle : "+length*height);
-	}
-}
-class Triangle extends Shape{
 
-	@Override
-	void printArea() {
-		System.out.println("Triangle : "+length*height);
-	}
+public class Practice {
 	
-}
-class Circle extends Shape{
-
-	@Override
-	void printArea() {
-		System.out.println("Circle : "+length*height);
+	public static void check(int n) {
+		try {
+			int n1=1000/n;
+			System.out.println(n1);
+			int arr[]= {1,2,3};
+			System.out.println(arr[n]);
+		}
+		catch(Exception e) {
+			System.out.println("Invalid inputs");
+			e.printStackTrace();
+		}
 	}
-	
-}
-public interface Practice {
 	public static void main(String[] args) {
-		Rectangle r1=new Rectangle();
-		Triangle t1=new Triangle();
-		Circle c1=new Circle();
-		r1.printArea();
-		t1.printArea();
-		c1.printArea();
+		
+		check(2);
+		check(4);
+		check(0);
 	}
 }
