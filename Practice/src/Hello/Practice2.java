@@ -1,40 +1,28 @@
 package Hello;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-
-class A {
+class Person{
 	String name;
 	int age;
-	int marks;
 	
-	public A(String name,int age,int marks) {
+	public Person(String name,int age) {
 		this.name=name;
 		this.age=age;
-		this.marks=marks;
 	}
 	
 	@Override
-	public String toString() {
-		return "name = "+name+" age = "+age+" marks = "+marks;
+	public boolean equals(Object t) {
+		Person p=(Person)t;
+		return this.age==p.age;
 	}
-	
 }
 
-class Practice2{
-	
-	public static void main(String[] args){
-		StringBuffer sb=new StringBuffer("Ambika");
-		System.out.println(sb.hashCode());
-		sb=sb.append("Nisha");
-		System.out.println(sb);
-		System.out.println(sb.hashCode());
-		System.out.println("--------------------------------");
-		sb=new StringBuffer("Ambi");
-		System.out.println(sb.hashCode());
-		sb=sb.append("ambu");
-		System.out.println(sb);
-		System.out.println(sb.hashCode());
+class Practice2 {
+
+	public static void main(String[] args) {
+		Person p1=new Person("Ambarish",23);
+		Person p2=new Person("Ambika",24);
+		
+		System.out.println(p1.equals(p2));
 	}
 
-} 
+}

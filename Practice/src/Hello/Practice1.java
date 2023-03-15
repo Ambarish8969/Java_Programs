@@ -1,48 +1,48 @@
 package Hello;
 
-class Sample{
-	synchronized public void method1() {
-		for(int i=0;i<5;i++) {
-			System.out.println("method 1");
-		}
+class Email{
+	private static String emailid;
+	private String password;
+	
+	public Email(String emailid, String password) {
+		super();
+		this.emailid = emailid;
+		this.password = password;
 	}
-	synchronized public void method2() {
-		for(int i=0;i<5;i++) {
-			System.out.println("method 2");
-		}
+	public String getEmailid() {
+		return emailid;
+	}
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 	
 }
-class Demo1 extends Thread{
-	Sample s1;
+class Email2{
+	String email_id;
+	String password;
 	
-	public Demo1(Sample s1) {
-		this.s1=s1;
-	}
-	
-	@Override 
-	public void run() {
-		s1.method1();
-	}
-}
-class Demo2 extends Thread{
-	Sample s2;
-	
-	public Demo2(Sample s2) {
-		this.s2=s2;
-	}
-	
-	@Override 
-	public void run() {
-		s2.method2();
+	public void printDetails() {
+		System.out.println(email_id+" "+password);
 	}
 }
 public class Practice1{
+	
 	public static void main(String[] args) {
-		Sample s3=new Sample();
-		Demo1 d1=new Demo1(s3);
-		Demo2 d2=new Demo2(s3);
-		d1.start();
-		d2.start();
+		Email email=new Email("ambi@gmail.com","ambi@00");
+	   email.getEmailid();
+		System.out.println(email.getEmailid()+" "+email.getPassword());
+		
+		Email2 email2=new Email2();
+		email2.email_id="ambika@gmail.com";
+		email2.password="ambika@00"; 
+		System.out.println(email2.email_id+" "+email2.password);
+//		Email2.email_id;
+		
 	}
 }
